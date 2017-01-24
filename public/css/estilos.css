@@ -1,0 +1,90 @@
+header {
+  background: #fff(0,0,0,0.9);opacity: 0.8;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+nav ul li:hover {
+  background: #E0F2F7;
+}
+body {
+  background:url(Fondo.jpg); /* Nuestra imagen de fondo */
+	background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+h2.introduccion {
+    font-size: 100px;
+    text-shadow: 0px 3px 4px rgba(0,0,0,.5);
+}
+#intro {
+    background: url(Fono.jpg) 50% 0 fixed;
+    min-height: 700px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 100px 0;
+}
+.intro-unit {
+    color: #ddd;
+    padding: 80px;
+    text-align: center;
+
+}
+#servicios {
+    background-color: #fff;opacity: 0.9;
+    margin: 0px;
+    width: 100%;
+    padding:100px ;
+}
+#Geografia1 {
+     height: 300px;
+    padding: 100px 0;
+}
+#Geografia2 {
+  background-color: #fff;
+	width: 100%;
+	max-width:700px;
+	margin: 10px;
+}
+#search input[type="text"] {
+background: #fff url(//lh4.googleusercontent.com/-1jhhmuhclMc/U8_hntfKzCI/AAAAAAAAFi8/hqlTRAByrVM/s32/buscar.png) no-repeat center left;
+position: absolute;
+right:3px; /* Distancia del buscador desde la derecha */
+outline:none;
+font-size: 13px; /* Tamaño de la fuente del buscador */
+color: #ccc;
+width: 0;
+margin: 0;
+padding: 12px 0 12px 35px;
+z-index: 1000;
+border: 1px solid #fff;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+#search input[type="text"]:hover, #search input[type="text"]:focus {width:94%} /* Ancho del buscador cuando se expande */
+article {
+	background:rgba(24,8,33,.9);
+	padding:20px;
+	margin:20px 0;
+	color:#fff;
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+#comentariosface {
+	background:rgba(128,168,247,.9);
+	padding:20px;
+	margin:20px 0;
+	color:#fff;
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+#twt{
+    width: 200px;
+}
+#art{
+    width: 1000px;
+}
